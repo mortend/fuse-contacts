@@ -4,7 +4,7 @@ using Fuse;
 using Bolav.ForeignHelpers;
 using Uno.Threading;
 using Uno.Compiler.ExportTargetInterop;
-using Uno.Permissions;
+using Fuse.Android.Permissions;
 
 [ForeignInclude(Language.Java,
                 "android.provider.ContactsContract",

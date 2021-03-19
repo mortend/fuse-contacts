@@ -1,18 +1,12 @@
 {
   "Name":"ContactsExample",
-  "RootNamespace": "",
   "Packages": [
     "Fuse",
     "FuseJS",
-    "Android",
-    "Uno.Permissions"
+    "Fuse.Android.Permissions"
   ],
   "Includes": [
-    "*"
+    "*",
+    "foreignhelpers/ListDict.uno"
   ],
-  "FusePM": {
-    "Dependencies": [
-      "https://github.com/bolav/fuse-foreignhelpers"
-    ]
-  }
 }

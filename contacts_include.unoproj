@@ -1,16 +1,11 @@
 {
-  "RootNamespace": "",
   "Packages": [
     "Fuse",
     "FuseJS",
-    "Uno.Permissions"
+    "Fuse.Android.Permissions"
   ],
   "Includes": [
-    "./*.uno"
+    "./*.uno",
+    "foreignhelpers/ListDict.uno"
   ],
-  "FusePM": {
-    "Dependencies": [
-      "https://github.com/bolav/fuse-foreignhelpers"
-    ]
-  }
 }
